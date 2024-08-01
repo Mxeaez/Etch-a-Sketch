@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    background-color: lightblue; /* Background color for each item */
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    text-align: center; /* Center the text inside the item */
+    transition: background-color 0.3s ease;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+#generate-button {
+    padding: 8px 16px;
+}
